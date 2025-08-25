@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    background: #a72b7f;
+    color: rgb(255, 254, 254);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.left h2 {
+    margin: 10px 0;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.right {
+    padding: 20px;
+    width: 70%;
+}
+
+.right h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #d68ee1;
+}
+
+.right section {
+    margin-bottom: 20px;
+}
